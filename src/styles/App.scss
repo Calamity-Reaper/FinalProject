@@ -1,0 +1,36 @@
+@font-face {
+  src: url("fonts/Bazar.ttf");
+  font-family: Bazar;
+}
+
+@font-face {
+  src: url("fonts/Roboto-Regular.ttf");
+  font-family: Roboto-Reg;
+}
+
+@font-face {
+  src: url("fonts/SeasideResortNF.ttf");
+  font-family: Seaside;
+}
+
+@font-face {
+  src: url("fonts/Oswald-Regular.ttf");
+  font-family: Oswald;
+}
+
+@font-face {
+  src: url("fonts/RobotoSlab-Regular.ttf");
+  font-family: Roboto-Slab-Reg;
+}
+
+@font-face {
+  src: url("fonts/RobotoSlab-Bold.ttf");
+  font-family: Roboto-Slab-Bold;
+}
+
+.App {
+  main {
+    height: 100%;
+    position: relative;
+  }
+}

@@ -1,0 +1,72 @@
+.idle-modal {
+  z-index: 8;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.idle-modal__content {
+  position: relative;
+  background-color: #7ac0c0;
+  width: 300px;
+  height: 200px;
+  top: 30%;
+  margin: 0 auto;
+  font-family: Roboto-Reg;
+  color: #f9ebd9;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.5s;
+  transform: scale(0);
+}
+.idle-modal__content p {
+  margin: 8px 0;
+}
+.idle-modal__content hr {
+  margin: 5px 0;
+  border: 1px solid;
+}
+
+.idle-modal__btn {
+  cursor: pointer;
+  transition: all 0.3s;
+  transform: scale(1);
+  width: 70px;
+  height: 30px;
+  margin: 5px 30px;
+  border: none;
+  background-color: #f1dac7;
+  color: #45484C;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.idle-modal.modal-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.idle-modal__content.modalActive {
+  transform: scale(1);
+}
+
+.idle-modal__content.dark {
+  background-color: #45484C;
+}
+
+.idle-modal__btn.dark {
+  background-color: #7ac0c0;
+}
+
+.idle-modal__btn:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=IdleModal.css.map */

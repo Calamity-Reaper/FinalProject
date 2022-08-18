@@ -1,0 +1,41 @@
+.social_text {
+  font-family: Bazar;
+  color: #f6edd8;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.social_text hr {
+  border: 1px solid #f6edd8;
+  width: 20%;
+  margin: 7px auto;
+}
+
+.social__links {
+  display: flex;
+  justify-content: center;
+}
+
+.social__links_link {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #f6edd8;
+  margin: 15px 10px;
+  transition: all 0.5s;
+  transform: scale(1);
+}
+.social__links_link img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
+
+.social__links_link:hover {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=Social.css.map */

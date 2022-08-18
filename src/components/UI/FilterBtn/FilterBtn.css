@@ -1,0 +1,47 @@
+.filter-btn {
+  cursor: pointer;
+  margin: 5px 10px;
+  position: relative;
+  height: 24px;
+  font-family: Roboto-Slab-Bold;
+  color: #383a3c;
+  padding: 3px;
+  border: none;
+  background-color: #fbfaf6;
+  border-radius: 0 5px 5px 0;
+  transition: all 0.3s;
+  transform: scale(1);
+}
+.filter-btn span {
+  color: #959ca3;
+  margin-right: 5px;
+}
+.filter-btn .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.filter-btn_triangle {
+  position: absolute;
+  left: -9px;
+  height: 0;
+  width: 0;
+  border: 12px solid transparent;
+  border-left: 0;
+  border-right: 9px solid #fbfaf6;
+}
+
+.filter-btn.active {
+  background-color: #3a3d40;
+  color: #fbfaf6;
+}
+
+.filter-btn_triangle.active {
+  border-right: 9px solid #3a3d40;
+}
+
+.filter-btn:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=FilterBtn.css.map */

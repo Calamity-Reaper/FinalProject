@@ -1,0 +1,69 @@
+.order-modal {
+  z-index: 8;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.order-modal__content {
+  position: relative;
+  background-color: #7ac0c0;
+  width: 300px;
+  height: 200px;
+  top: 30%;
+  margin: 0 auto;
+  font-family: Roboto-Reg;
+  color: #f9ebd9;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.5s;
+  transform: scale(0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.order-modal__btn {
+  cursor: pointer;
+  transition: all 0.3s;
+  transform: scale(1);
+  width: 70px;
+  height: 30px;
+  margin: 5px 30px;
+  border: none;
+  background-color: #f1dac7;
+  color: #45484C;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.order-modal.modal-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.order-modal__content.modalActive {
+  transform: scale(1);
+}
+
+.order-modal__content.dark {
+  background-color: #45484C;
+}
+
+.order-modal__btn.dark {
+  background-color: #7ac0c0;
+}
+
+.order-modal__btn:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=ContactModal.css.map */

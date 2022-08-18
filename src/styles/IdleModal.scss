@@ -1,0 +1,80 @@
+@import 'mixines.scss';
+
+$bg-light: #7ac0c0;
+$bg-dark: #45484C;
+
+$bg-btn-light: #f1dac7;
+$bg-btn-dark: #7ac0c0;
+
+$color: #f9ebd9;
+
+.idle-modal {
+  z-index: 8;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, .3);
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.idle-modal__content {
+  position: relative;
+  background-color: $bg-light;
+  width: 300px;
+  height: 200px;
+  top: 30%;
+  margin: 0 auto;
+  font-family: Roboto-Reg;
+  color: $color;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  transition: .5s;
+  transform: scale(0);
+  p {
+    margin: 8px 0;
+  }
+  hr {
+    margin: 5px 0;
+    border: 1px solid;
+  }
+}
+
+.idle-modal__btn {
+  cursor: pointer;
+  transition: all 0.3s;
+  transform: scale(1);
+  width: 70px;
+  height: 30px;
+  margin: 5px 30px;
+  border: none;
+  background-color: $bg-btn-light;
+  color: $bg-dark;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.idle-modal.modal-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.idle-modal__content.modalActive {
+  transform: scale(1);
+}
+
+.idle-modal__content.dark {
+  background-color: $bg-dark;
+}
+
+.idle-modal__btn.dark {
+  background-color: $bg-btn-dark;
+}
+
+.idle-modal__btn:hover {
+  transform: scale(1.1);
+}

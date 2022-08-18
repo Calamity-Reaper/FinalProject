@@ -1,0 +1,74 @@
+.preloader {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1e1e1e;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.preloader__item-wrapper {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.preloader__load-circle {
+  width: 50px;
+  height: 50px;
+  border-top: 2px solid greenyellow;
+  border-left: 2px solid green;
+  border-right: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  animation: spin 1.3s infinite linear;
+}
+
+.preloader__load-text {
+  position: relative;
+}
+.preloader__load-text h2 {
+  position: relative;
+  margin-top: 30px;
+  font-family: Consolas;
+  color: #1ab41a;
+  letter-spacing: 4px;
+  font-size: 1.3em;
+  animation: text-blinking 4s steps(7) infinite;
+  overflow: hidden;
+}
+
+@keyframes text-blinking {
+  0%, 90%, 100% {
+    width: 0;
+  }
+  30%, 60% {
+    width: 108.06px;
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.show {
+  animation: show 2s;
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1000px);
+  }
+}
+
+/*# sourceMappingURL=Preloader.css.map */

@@ -1,0 +1,65 @@
+$bg-light: #3d6c6c;
+$bg-dark: #71b6b6;
+
+.menu-icon {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $bg-light;
+  border-radius: 50%;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.menu-icon__bars {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-icon__bars_bar {
+  height: 2px;
+  width: 70%;
+  background: #f9ebd9;
+  border-radius: 3px;
+  margin: 4px 0;
+}
+
+.darkMenu {
+  background-color: $bg-dark;
+}
+
+@media (min-height: 800px) and (min-width: 600px) {
+  .menu-icon {
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  .menu-icon__bar {
+    height: 3px;
+  }
+}
+
+@media (min-height: 1000px) and (min-width: 600px) {
+  .menu-icon {
+    right: 20px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+  }
+  .menu-icon__bar {
+    height: 5px;
+  }
+}
+

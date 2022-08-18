@@ -1,0 +1,57 @@
+@import "../../styles/mixines";
+
+$main-text-color: #f6edd8;
+$bg-light: #7ac0c0;
+$bg-dark: #45484C;
+
+.slider-section {
+  background-color: $bg-light;
+  padding-bottom: 20px;
+}
+
+.slider-section__header {
+  @include flex-column-a-center;
+  padding-top: 20px;
+  h1 {
+    font-family: Seaside;
+    font-size: 40px;
+    color: $main-text-color;
+    letter-spacing: 5px;
+  }
+}
+
+.slider-section__greet {
+  line-height: 1.5;
+  margin-top: 10%;
+  p {
+    text-align: center;
+    font-family: Bazar;
+    letter-spacing: 2px;
+    color: #f6edd8;
+  }
+}
+
+.dark {
+  background-color: $bg-dark;
+}
+
+@media screen and (min-width: 900px) and (min-height: 700px) {
+  .slider-section__header {
+    @include flex-column-a-center;
+    padding-top: 40px;
+    h1 {
+      font-size: 100px;
+    }
+  }
+
+  .slider-section__header_image {
+    width: 500px;
+  }
+
+  .slider-section__greet {
+    margin: 40px 0;
+    p {
+      font-size: 40px;
+    }
+  }
+}

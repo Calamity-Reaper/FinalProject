@@ -1,0 +1,111 @@
+@import '../../styles/mixines';
+$portfolio-bg-light: #e68966;
+$portfolio-bg-dark: #70563b;
+
+$portfolio-text-light: #38353e;
+$portfolio-text-dark: #e6e1d0;
+
+.portfolio {
+  background-color: $portfolio-bg-light;
+  padding-top: 20px;
+  width: 100vw;
+  color: $portfolio-text-light;
+}
+
+.portfolio__content {
+  margin: 0 10px;
+}
+
+.portfolio__content__filters {
+  @include flex-a-center;
+}
+
+.portfolio__content__filters_text {
+  font-family: Roboto-Slab-Reg;
+  width: 70px;
+  text-align: center;
+}
+
+.portfolio__content__filters_btns {
+  width: 100vw;
+}
+
+.portfolio__content__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.portfolio__content_all-btn {
+  position: relative;
+  text-transform: uppercase;
+  font-family: Oswald;
+  font-weight: bold;
+  height: 40px;
+  transition: all 0.3s;
+  transform: scale(1);
+
+  hr {
+    width: 60px;
+    border: 1px solid #38353e;
+    margin: 0 auto;
+  }
+
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+}.portfolio.dark {
+  background-color: $portfolio-bg-dark;
+  color: $portfolio-text-dark;
+  hr {
+    border-color: $portfolio-text-dark;
+  }
+ }
+
+
+.portfolio-cards-enter {
+  opacity: 0;
+}
+.portfolio-cards-enter-active {
+  opacity: 1;
+  transition: all 500ms;
+}
+.portfolio-cards-exit {
+  opacity: 1;
+}
+.portfolio-cards-exit-active {
+  opacity: 0;
+  transition: all 500ms;
+}
+
+@media screen and (min-width: 600px) and (min-height: 400px) {
+  .portfolio__content__filters {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .portfolio__content__filters_text {
+    width: 120px;
+  }
+  .portfolio__content__cards {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .portfolio__content_all-btn {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .portfolio__content_all-btn:hover {
+    transform: scale(1.1);
+  }
+}

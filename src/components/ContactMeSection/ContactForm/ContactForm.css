@@ -1,0 +1,49 @@
+.contact-form {
+  width: 80%;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form span {
+  color: #ee5959;
+  font-family: Roboto-Slab-Bold;
+}
+
+.contact-form_input {
+  margin: 5px 0;
+  font-family: Roboto-Slab-Reg;
+  padding: 7px 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.message {
+  height: 150px;
+  resize: none;
+}
+
+.submit {
+  width: 35%;
+  font-family: Roboto-Slab-Bold;
+  color: #383a3c;
+  transition: all 0.3s;
+}
+
+.incorrect {
+  border: 2px solid red;
+}
+
+@media screen and (min-width: 900px) and (min-height: 700px) {
+  .contact-form {
+    width: 30%;
+  }
+  .submit {
+    width: 25%;
+  }
+  .submit:hover {
+    background-color: #646161;
+    color: #e3e0dd;
+  }
+}
+
+/*# sourceMappingURL=ContactForm.css.map */

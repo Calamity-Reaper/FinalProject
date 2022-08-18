@@ -1,0 +1,77 @@
+@import '../../../styles/mixines';
+
+$bg-light: #7ac0c0;
+$bg-dark: #45484C;
+
+$bg-btn-light: #f1dac7;
+$bg-btn-dark: #7ac0c0;
+
+$color: #f9ebd9;
+
+.order-modal {
+  z-index: 8;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, .3);
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.order-modal__content {
+  position: relative;
+  background-color: $bg-light;
+  width: 300px;
+  height: 200px;
+  top: 30%;
+  margin: 0 auto;
+  font-family: Roboto-Reg;
+  color: $color;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  transition: .5s;
+  transform: scale(0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.order-modal__btn {
+  cursor: pointer;
+  transition: all 0.3s;
+  transform: scale(1);
+  width: 70px;
+  height: 30px;
+  margin: 5px 30px;
+  border: none;
+  background-color: $bg-btn-light;
+  color: $bg-dark;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.order-modal.modal-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.order-modal__content.modalActive {
+  transform: scale(1);
+}
+
+.order-modal__content.dark {
+  background-color: $bg-dark;
+}
+
+.order-modal__btn.dark {
+  background-color: $bg-btn-dark;
+}
+
+.order-modal__btn:hover {
+  transform: scale(1.1  );
+}

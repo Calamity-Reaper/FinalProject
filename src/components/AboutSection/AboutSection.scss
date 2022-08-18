@@ -1,0 +1,33 @@
+@import '../../styles/mixines';
+$about-bg-light: #e6e1d0;
+$about-bg-dark: #3e6053;
+
+$about-text-light: #383a3c;
+$about-text-dark: #e6e1d0;
+
+.about-section {
+  background-color: $about-bg-light;
+  padding-top: 20px;
+  color: $about-text-light;
+  @include flex-column-a-center;
+  flex-wrap: wrap;
+}
+
+.about-section.dark {
+  background-color: $about-bg-dark;
+  color: $about-text-dark;
+}
+
+@media screen and (min-width: 900px) and (min-height: 700px) {
+  .about-section__content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    hr {
+      display: none;
+    }
+  }
+}

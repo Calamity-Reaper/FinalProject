@@ -1,0 +1,101 @@
+[
+  {
+    "iconUrl": "publicImg/portfolio/icons/clip.png",
+    "iconAlt": "clip",
+    "imgUrl": "publicImg/portfolio/cardPhotos/1.png",
+    "imgAlt": "react",
+    "title": "React project",
+    "tags": "react",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores aspernatur assumenda atque autem commodi doloremque ea fugiat hic impedit ipsum?",
+    "date": "15-08-2022",
+    "stack": "ReactJS, SCSS, JS"
+  },
+  {
+    "iconUrl": "publicImg/portfolio/icons/clip.png",
+    "iconAlt": "clip",
+    "imgUrl": "publicImg/portfolio/cardPhotos/1.png",
+    "imgAlt": "react",
+    "title": "React project",
+    "tags": "web react",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores aspernatur assumenda atque autem commodi doloremque ea fugiat hic impedit ipsum?",
+    "date": "15-08-2022",
+    "stack": "ReactJS, SCSS, JS"
+  },
+  {
+    "iconUrl": "publicImg/portfolio/icons/clip.png",
+    "iconAlt": "clip",
+    "imgUrl": "publicImg/portfolio/cardPhotos/1.png",
+    "imgAlt": "react",
+    "title": "React project",
+    "tags": "photo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores aspernatur assumenda atque autem commodi doloremque ea fugiat hic impedit ipsum?",
+    "date": "15-08-2022",
+    "stack": "ReactJS, SCSS, JS"
+  },
+  {
+    "iconUrl": "publicImg/portfolio/icons/clip.png",
+    "iconAlt": "clip",
+    "imgUrl": "publicImg/portfolio/cardPhotos/1.png",
+    "imgAlt": "react",
+    "title": "React project",
+    "tags": "photo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores aspernatur assumenda atque autem commodi doloremque ea fugiat hic impedit ipsum?",
+    "date": "15-08-2022",
+    "stack": "ReactJS, SCSS, JS"
+  },
+  {
+    "iconUrl": "publicImg/portfolio/icons/clip.png",
+    "iconAlt": "clip",
+    "imgUrl": "publicImg/portfolio/cardPhotos/1.png",
+    "imgAlt": "react",
+    "title": "React project",
+    "tags": "photo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores aspernatur assumenda atque autem commodi doloremque ea fugiat hic impedit ipsum?",
+    "date": "15-08-2022",
+    "stack": "ReactJS, SCSS, JS"
+  },
+  {
+    "iconUrl": "publicImg/portfolio/icons/clip.png",
+    "iconAlt": "clip",
+    "imgUrl": "publicImg/portfolio/cardPhotos/1.png",
+    "imgAlt": "react",
+    "title": "React project",
+    "tags": "photo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores aspernatur assumenda atque autem commodi doloremque ea fugiat hic impedit ipsum?",
+    "date": "15-08-2022",
+    "stack": "ReactJS, SCSS, JS"
+  },
+  {
+    "iconUrl": "publicImg/portfolio/icons/clip.png",
+    "iconAlt": "clip",
+    "imgUrl": "publicImg/portfolio/cardPhotos/1.png",
+    "imgAlt": "react",
+    "title": "React project",
+    "tags": "photo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores aspernatur assumenda atque autem commodi doloremque ea fugiat hic impedit ipsum?",
+    "date": "15-08-2022",
+    "stack": "ReactJS, SCSS, JS"
+  },
+  {
+    "iconUrl": "publicImg/portfolio/icons/clip.png",
+    "iconAlt": "clip",
+    "imgUrl": "publicImg/portfolio/cardPhotos/1.png",
+    "imgAlt": "react",
+    "title": "React project",
+    "tags": "photo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores aspernatur assumenda atque autem commodi doloremque ea fugiat hic impedit ipsum?",
+    "date": "15-08-2022",
+    "stack": "ReactJS, SCSS, JS"
+  },
+  {
+    "iconUrl": "publicImg/portfolio/icons/clip.png",
+    "iconAlt": "clip",
+    "imgUrl": "publicImg/portfolio/cardPhotos/1.png",
+    "imgAlt": "react",
+    "title": "React project",
+    "tags": "photo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam asperiores aspernatur assumenda atque autem commodi doloremque ea fugiat hic impedit ipsum?",
+    "date": "15-08-2022",
+    "stack": "ReactJS, SCSS, JS"
+  }
+]

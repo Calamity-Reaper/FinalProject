@@ -1,0 +1,54 @@
+@import '../../../styles/mixines';
+
+$about-separator-light: #383a3c;
+$about-separator-dark: #e6e1d0;
+
+.about-card {
+  @include flex-column-a-center;
+  width: 200px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.about-card__header {
+  text-transform: uppercase;
+}
+
+.about-card__header_image img {
+  width: 120px;
+}
+
+.about-card__header_title {
+  font-family: Bazar;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.about-card__header_description {
+  font-family: Roboto-Slab-Reg;
+}
+
+.about-card__header_separator {
+  height: 3px;
+  width: 70px;
+  margin: 10px auto;
+  background-color: $about-separator-light;
+}
+
+.about-card_content {
+  font-family: Roboto-Slab-Reg;
+}
+
+.about-card__header_separator.dark {
+  background-color: $about-separator-dark;
+}
+
+@media screen and (min-width: 900px) and (min-height: 700px) {
+  .about-card {
+    margin: 20px 25px;
+  }
+
+  .about-card_content {
+    text-align: left;
+  }
+}
